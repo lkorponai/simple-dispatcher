@@ -1,0 +1,22 @@
+{
+  "name": "lkorponai/simple-dispatcher",
+  "description": "Simple event dispatcher.",
+  "type": "library",
+  "keywords": ["event", "dispatcher", "eventhandler"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Levente Korponai",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "lkorponai\\SimpleDispatcher\\": ""
+    }
+  }
+}
